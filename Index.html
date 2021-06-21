@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon">
+    <link rel="stylesheet"    href="Style.css"> 
+    <title>InfotheInformatica</title>
+    
+</head>
+<body>
+    <header></header>
+    <div>
+        <h1>InfotheInformatica</h1>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Serviços.html">Serviços</a></li>
+            <li><a href="Benchmarks.html">Benchmarks</a></li>
+            <li><a href="Sobre a empresa.html">Sobre a empresa</a></li>
+            <li><a href="Cadastre-se.html">Cadastre-se</a></li>
+        </ul>
+    </div>
+        <br>
+        <br>
+    <div>
+            <img class="imgsld"    src="Green and Black Illustrated Video Game Controller Vector YouTube Channel Cover (1).gif">
+        <a href="https://www.youtube.com/channel/UCG80piYn15-lQjRTmxiykDg" target="blank"> <img class="imgsld"    src="Cópia de Black and White Trendy Online Shopping YouTube Video Ad.gif"></a>
+
+    </div>
+    
+           <div class="texto" >
+           <br>
+               <br>
+           <h2>Seja vem vindo a Informática, fique à-vontade para nos conhecer e tirar suas dúvidas.
+        </h2>
+           <br>
+           <p>    
+           </p>
+           <p>
+            Informática é uma empresa de tecnologia em desenvolvimento, focada com o objetivo de auxiliar, vender, desenvolver ou dar uma força para fazer a máquina dos seus sonhos se tornar realidade!
+           </p>
+           <p>Trabalhamos com peças originais de alta qualidade no mercado, hardwares e softwares para todos os gostos com valores custo benefício, recebemos matéria-prima directamente do fabricante em caso de problemas trabalhamos com a garantia.
+        </p>
+           <br>
+           <p>Fique por dentro de todas a nossas nossas dicas, em breve daremos o ponta pé inicial.</p>
+           <br>
+           <iframe id="frame" width="320" height="568" src="https://www.instagram.com/p/CKWRdPwB7X2/embed" frameborder="0"></iframe>
+           <p>Siga nossas redes sociais no YouTube, Instagram ou Facebook.
+        </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="footerf">
+            <div>
+                <p>
+                    "COPYRIGHT © 2021.TODOS OS DIREITOS RESERVADOS. INFOTHEINFORMATICA LTDA"
+                </p>
+            </div>
+            </footer>
+           <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("imgsld");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 5000);    
+            }
+        </script>
+</body>
+</html>
